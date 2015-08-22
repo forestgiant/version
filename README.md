@@ -1,12 +1,16 @@
-# vendor
-Tool for vendoring repositories.
+# version
+Tool for version repositories. Forked from https://github.com/skelterjohn/vendor
 
 Currently supports git and mercurial.
 
 ```
-Usage: vendor [-d DIR] -s [-a PATH=REPO]* CONFIG  # save
-       vendor [-d DIR] -r CONFIG  # restore
+Usage: version [-d DIR] -s [-a PATH=REPO]* CONFIG_FILE_NAME  # save
+       version [-d DIR] -r CONFIG_FILE_NAME  # restore
 ```
+
+Ex. to version all repositories in project `version -s version.json`
+
+Ex. to restore all repositories in project `version -r version.json`
 
 Default for `DIR` is the current working directory.
 
