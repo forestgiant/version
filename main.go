@@ -24,8 +24,8 @@ import (
 )
 
 func usage() {
-	fmt.Fprintf(os.Stderr, "Usage: vendor [-d DIR] -s [-a PATH=REPO]* CONFIG  # save\n")
-	fmt.Fprintf(os.Stderr, "       vendor [-d DIR] -r CONFIG                  # restore\n")
+	fmt.Fprintf(os.Stderr, "Usage: version [-d DIR] -s [-a PATH=REPO]* CONFIG  # save\n")
+	fmt.Fprintf(os.Stderr, "       version [-d DIR] -r CONFIG                  # restore\n")
 	os.Exit(1)
 }
 
