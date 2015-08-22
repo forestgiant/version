@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/skelterjohn/vendor/vend"
+	"github.com/forestgiant/version/vend"
 )
 
 func usage() {
