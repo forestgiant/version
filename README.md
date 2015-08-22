@@ -1,17 +1,20 @@
 # version
-Tool for version repositories. Forked from https://github.com/skelterjohn/vendor
+Tool for versioning repositories. Forked from https://github.com/skelterjohn/vendor
 
 Currently supports git and mercurial.
 
+## Usage
 ```
 Usage: version [-d DIR] -s [-a PATH=REPO]* CONFIG_FILE_NAME  # save
        version [-d DIR] -r CONFIG_FILE_NAME  # restore
 ```
 
-Ex. to version all repositories in project `version -s version.json`
+## Examples
+To version all repositories in project `version -s version.json`
 
-Ex. to restore all repositories in project `version -r version.json`
+To restore all repositories in project `version -r version.json`
 
+## Options
 Default for `DIR` is the current working directory.
 
 `version -s` searches through `DIR` looking for repositories, making a record of all that it finds, and writes it to `CONFIG`.
